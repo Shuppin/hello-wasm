@@ -16,7 +16,7 @@ jobs:
 
     # Build the WebAssembly module
     - name: Build wasm module
-      run: wasm-pack build .\site\ --target web
+      run: wasm-pack build /site --target web
 
     # Deploy to GitHub Pages
     - name: Deploy
