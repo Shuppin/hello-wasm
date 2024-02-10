@@ -1,4 +1,0 @@
-/target
-/site/target
-/site/pkg
-**/Cargo.lock
